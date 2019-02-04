@@ -3,6 +3,7 @@
 Usage:
 ```
 import { css, html } from "lit-element"
+import { strToTag } from "string-to-tag"
 
 const simple = "My string...";
 strToTag(simple, html)
